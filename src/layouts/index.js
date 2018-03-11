@@ -11,8 +11,7 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="LUXFACTOR 2018"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'The sixth annual talent show of ESL 1' },
       ]}
     />
     <div
