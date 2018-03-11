@@ -1,0 +1,19 @@
+.main-content {
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    color: #fafafa;
+}
+
+body {
+    background: url('../img/MainBG_minres.png') fixed;
+    background-size: cover;
+}
+
+a {
+    font-family: sans-serif;
+}
+
+a:visited {
+    color: #E64A19;
+}

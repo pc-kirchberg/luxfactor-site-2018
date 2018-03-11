@@ -1,0 +1,20 @@
+.button {
+    background-color: #E64A19;
+    padding: 0.8em;
+    transition: 300ms box-shadow;
+}
+
+.button.border {
+    border: 2px solid white;
+}
+
+.button, .button * {
+    color: #fff !important;
+    font-family: sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 3px 3px 3px #212121;
+}
