@@ -10,6 +10,24 @@ body {
     background-size: cover;
 }
 
+@media all and (min-width: 960px) {
+    body {
+        background-image: url('../../img/MainBG_960.png');
+    }
+}
+
+@media all and (min-width: 1280px) {
+    body {
+        background-image: url('../../img/MainBG_1280.png');
+    }
+}
+
+@media all and (min-width: 1600px) {
+    body {
+        background-image: url('../../img/MainBG_maxres.png');
+    }
+}
+
 a {
     font-family: sans-serif;
 }
