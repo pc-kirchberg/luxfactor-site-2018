@@ -48,7 +48,7 @@ const IndexPage = () => (
         <br />
         <strong>Jury:</strong> To be announced :)
       </ContentRow>
-      <ContentRow>
+      <ContentRow bg="alt">
         We'll announce details of ticket sales soon. Keep watching this website
         for details!
       </ContentRow>
