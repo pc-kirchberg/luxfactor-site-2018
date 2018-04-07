@@ -1,10 +1,10 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from 'react'
+import Link from 'gatsby-link'
 
-import Button from "../components/Button";
-import ContentRow from "../components/ContentRow";
-import ApplyForm from "../components/ApplyForm";
-import ScrollIcon from "../components/ScrollIcon";
+import Button from '../components/Button'
+import ContentRow from '../components/ContentRow'
+import ApplyForm from '../components/ApplyForm'
+import ScrollIcon from '../components/ScrollIcon'
 
 const IndexPage = () => (
   <div>
@@ -41,7 +41,7 @@ const IndexPage = () => (
         </Button>
       </ContentRow>
       <ContentRow>
-        <strong>Prizes:</strong> To be announced :)
+        <strong>Prizes:</strong> €150, €100, €50
       </ContentRow>
       <ContentRow fill>
         <strong>Hosts:</strong> To be announced :)
@@ -60,6 +60,6 @@ const IndexPage = () => (
       </ContentRow>
     </div>
   </div>
-);
+)
 
-export default IndexPage;
+export default IndexPage
