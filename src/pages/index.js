@@ -35,7 +35,12 @@ const IndexPage = () => (
           </small>
         </p>
         <Button border>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfK0YhISrvLDa2tNgewMw4wQEfzynVQSNQHa7hfxU2sz2uAew/viewform?usp=sf_link">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfK0YhISrvLDa2tNgewMw4wQEfzynVQSNQHa7hfxU2sz2uAew/viewform?usp=sf_link" onClick={() => {
+            if (window.fbq) {
+              window.fbq("track", "CompleteRegistration");
+            }
+            return true;
+          }}>
             Apply to participate
           </a>
         </Button>
