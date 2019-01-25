@@ -10,7 +10,7 @@ const IndexPage = () => (
   <div>
     <ContentRow masthead>
       <h1>LUXFACTOR 2019</h1>
-      <h2>15.03.2018</h2>
+      <h2>15.03.2019</h2>
       <h2>19:00-21:30</h2>
       <ScrollIcon />
     </ContentRow>
