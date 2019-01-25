@@ -9,14 +9,14 @@ import ScrollIcon from '../components/ScrollIcon'
 const IndexPage = () => (
   <div>
     <ContentRow masthead>
-      <h1>LUXFACTOR 2018</h1>
-      <h2>13.04.2018</h2>
+      <h1>LUXFACTOR 2019</h1>
+      <h2>15.03.2018</h2>
       <h2>19:00-21:30</h2>
       <ScrollIcon />
     </ContentRow>
     <div className="main-content">
       <ContentRow bg="alt">
-        For the sixth year in a row, the yearly talent show LUXFACTOR will take
+        For the seventh year in a row, the yearly talent show LUXFACTOR will take
         place in the European School Luxembourg 1 Kirchberg! Students are
         welcome to participate either as performers, showing the school their
         talents, or spectators, voting on the best talent. At the end of the
@@ -46,7 +46,7 @@ const IndexPage = () => (
         </Button>
       </ContentRow>
       <ContentRow>
-        <strong>Prizes:</strong> €150, €100, €50
+        <strong>Prizes:</strong> To be announced :)
       </ContentRow>
       <ContentRow fill>
         <strong>Hosts:</strong> To be announced :)
@@ -54,13 +54,12 @@ const IndexPage = () => (
         <strong>Jury:</strong> To be announced :)
       </ContentRow>
       <ContentRow bg="alt">
-        We'll announce details of ticket sales soon. Keep watching this website
+        We'll announce details of ticket sales soon. Keep watching this website, or follow us on Facebook or Instagram
         for details!
       </ContentRow>
       <ContentRow footer>
         <small>
-          Copyright 2018 &copy; Pupils' Committee ESL 1. All rights reserved.
-          Photos by Frederic Payet.
+          Copyright 2019 &copy; Pupils' Committee ESL 1. All rights reserved.
         </small>
       </ContentRow>
     </div>
