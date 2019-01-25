@@ -7,6 +7,7 @@ workflow "New workflow" {
 
 action "./builder" {
   uses = "./builder"
+  secrets = ["GITHUB_TOKEN"]
 }
 
 action "Slack message" {
