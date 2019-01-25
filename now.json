@@ -1,0 +1,8 @@
+{
+    "name": "luxfactor",
+    "version": 2,
+    "alias": "luxfactor.pupilscom-esl1.eu",
+    "builds": [
+        { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
+    ]
+}
