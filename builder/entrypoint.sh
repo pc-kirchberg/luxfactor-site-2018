@@ -1,4 +1,7 @@
 #!/bin/sh
+set -e
+
+echo "Starting deployment"
 
 yarn
 
