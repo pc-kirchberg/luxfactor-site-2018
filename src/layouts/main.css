@@ -1,37 +1,31 @@
 .main-content {
-    position: absolute;
-    top: 100vh;
-    width: 100%;
-    color: #fafafa;
+  position: absolute;
+  top: 100vh;
+  width: 100%;
+  color: #fafafa;
 }
 
 body {
-    background: url('../img/MainBG_minres.png') fixed;
-    background-size: cover;
+  background: url("../img/output-minres.jpg") fixed;
+  background-size: cover;
 }
 
 @media all and (min-width: 960px) {
-    body {
-        background-image: url('../img/MainBG_960.png');
-    }
+  body {
+    background-image: url("../img/output-960.jpg");
+  }
 }
 
 @media all and (min-width: 1280px) {
-    body {
-        background-image: url('../img/MainBG_1280.png');
-    }
-}
-
-@media all and (min-width: 1600px) {
-    body {
-        background-image: url('../img/MainBG_maxres.png');
-    }
+  body {
+    background-image: url("../img/output.jpg");
+  }
 }
 
 a {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 a:visited {
-    color: #E64A19;
+  color: #e64a19;
 }
