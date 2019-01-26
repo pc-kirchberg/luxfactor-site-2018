@@ -9,7 +9,7 @@ import './main.css'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="LUXFACTOR 2018"
+      title="LUXFACTOR 2019"
       meta={[
         {
           name: 'description',
