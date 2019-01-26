@@ -31,7 +31,7 @@ const IndexPage = () => (
         </p>
         <p>
           <small>
-            (and we promise Marks Polakovs won't be there to judge you)
+            (and we promise Marks Polakovs won't be judging you)
           </small>
         </p>
         <Button border>
