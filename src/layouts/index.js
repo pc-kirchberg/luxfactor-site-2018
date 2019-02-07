@@ -13,7 +13,7 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         {
           name: 'description',
-          content: 'The sixth annual talent show of ESL 1',
+          content: 'The seventh annual talent show of ESL 1',
         },
       ]}
     />
