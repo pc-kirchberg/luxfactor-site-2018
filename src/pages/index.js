@@ -46,7 +46,12 @@ const IndexPage = () => (
         </Button>
       </ContentRow>
       <ContentRow>
-        <strong>Prizes:</strong> To be announced :)
+        <strong>Prizes:</strong>
+        <ol>
+          <li>400€</li>
+          <li>200€</li>
+          <li>100€</li>
+        </ol>
       </ContentRow>
       <ContentRow fill>
         <strong>Hosts:</strong> To be announced :)
