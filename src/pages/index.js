@@ -34,16 +34,7 @@ const IndexPage = () => (
             (and we promise Marks Polakovs won't be judging you)
           </small>
         </p>
-        <Button border>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfK0YhISrvLDa2tNgewMw4wQEfzynVQSNQHa7hfxU2sz2uAew/viewform?usp=sf_link" onClick={() => {
-            if (window.fbq) {
-              window.fbq("track", "CompleteRegistration");
-            }
-            return true;
-          }}>
-            Apply to participate
-          </a>
-        </Button>
+        <b>Applications have now closed. If you applied, please check your email for next steps.</b>
       </ContentRow>
       <ContentRow>
         <strong>Prizes:</strong>
